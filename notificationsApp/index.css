@@ -1,0 +1,93 @@
+/* Write your code here. */
+body{
+    margin:0px;
+}
+ *{
+    box-sizing: border-box;
+ }
+
+.master-container{
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    font-family: roboto;
+    color:#323f4b;
+}
+
+.notifications-container{
+    width:auto;
+    height:auto;
+    /* border:solid red 2px; */
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.notification-card{
+    height: 50px;
+    width:320px;
+    /* border:solid red 1px; */
+    margin:10px 0px 10px 0px;
+    display:flex;
+
+}
+
+.icon-container{
+    /* border:solid red 2px; */
+    height: inherit;
+    width: auto;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+
+}
+
+.heading-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icon{
+    height:40px;
+    padding: 10px;
+}
+
+.primary-card{
+    background-color:#0b69ff;
+}
+
+.success-card{
+    background-color:#2dca73;
+}
+
+.warning-card{
+    background-color:#ffb800;
+}
+
+.danger-card{
+    background-color: #ff0b37;
+}
+
+.card-heading{
+    font-size: 0.9rem;
+    color:white;
+    font-family: roboto;
+}
+
+@media screen and (max-width:577px){
+    .notification-card{
+        width:220px;
+    }
+    .card-heading{
+        font-size:0.4rem;
+    }
+    .heading{
+        font-size:1.4rem;
+    }
+}
