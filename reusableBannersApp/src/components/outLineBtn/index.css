@@ -1,0 +1,8 @@
+.outLineBtn{
+    height: 40px;
+    width:128px;
+    font-family:Roboto;
+    border:solid #326a9d 1px;
+    border-radius:16px;
+    color:#326a9d;
+}
