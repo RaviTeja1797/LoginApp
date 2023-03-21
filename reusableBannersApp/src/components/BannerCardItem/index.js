@@ -1,6 +1,5 @@
-/* eslint-disable import/extensions */
 import './index.css'
-import OutLineBtn from "../outLineBtn/index.js"
+import OutLineBtn from '../outLineBtn/index'
 
 const BannerCard = props => {
   const {cardProps} = props
@@ -8,12 +7,13 @@ const BannerCard = props => {
   const {headerText, description} = cardProps
   className += ' banner-hight'
   return (
-    <div className={className}>
+    <li className={className}>
       <div className="text-box">
-        <h1>{headerText}</h1>
-        <p>{description}</p>
+        <h1 className="heading">{headerText}</h1>
+        <p className="description">{description}</p>
+        <OutLineBtn>Show More</OutLineBtn>
       </div>
-    </div>
+    </li>
   )
 }
 

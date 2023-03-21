@@ -31,3 +31,13 @@
   padding:60px;
   background-size: cover;
 }
+
+.heading{
+    font-family: Roboto;
+    color:#323f4b;
+}
+
+.description{
+    font-family: Roboto;
+    color:#323f4b;
+}

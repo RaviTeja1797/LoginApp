@@ -23,11 +23,12 @@ const bannerCardsList = [
   },
 ]
 
-const App = () => {
-  const cards = bannerCardsList.map(cardProps => (
-    <BannerCard cardProps={cardProps} />
-  ))
-  return cards
-}
+const App = () => (
+  <ul>
+    <BannerCard cardProps={bannerCardsList[0]} key={bannerCardsList[0].id} />
+    <BannerCard cardProps={bannerCardsList[1]} key={bannerCardsList[1].id} />
+    <BannerCard cardProps={bannerCardsList[2]} key={bannerCardsList[2].id} />
+  </ul>
+)
 
 export default App

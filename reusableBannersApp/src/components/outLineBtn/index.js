@@ -1,7 +1,7 @@
 import './index.css'
 
-const OutLineBtn = buttonDetails => {
-  const {children} = buttonDetails
+const OutLineBtn = Props => {
+  const {children} = Props
   const buttonElement = (
     <button type="button" className="outLineBtn">
       {children}
