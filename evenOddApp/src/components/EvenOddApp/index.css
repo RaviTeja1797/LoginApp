@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.main-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-container {
+  height: 60vh;
+  width: 60vw;
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-container {
+  /*  border: solid red 2px; */
+  /* height: 30vh; */
+  text-align: center;
+}
+
+p {
+  color: #1e293b;
+}
+
+button {
+  color: #1e293b;
+  border-radius: 10px;
+  width: 128px;
+  padding: 10px;
+  cursor: pointer;
+}

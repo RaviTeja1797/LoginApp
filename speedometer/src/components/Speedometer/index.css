@@ -1,0 +1,53 @@
+/* Write your CSS here */
+
+.main-container {
+  height: 100vh;
+  background-color: #07080c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-container {
+  /* border: solid red 1px; */
+  /* width: 75vw;
+  height: 75vh; */
+  padding: 0px 20px 10px 20px;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-heading {
+  font-style: italic;
+}
+
+.image {
+  width: 60%;
+  align-self: center;
+}
+
+.buttons-container {
+  margin: 16px;
+}
+
+.button {
+  color: #ffffff;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  padding: 12px;
+  margin: 0px 10px 0px 0px;
+  cursor: pointer;
+}
+
+.accelerate {
+  background-color: #0b69ff;
+}
+
+.break {
+  background-color: transparent;
+  outline: solid #ffffff 1px;
+}

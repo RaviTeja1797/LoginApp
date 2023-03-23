@@ -1,0 +1,77 @@
+/* Write your CSS here */
+.main-container {
+  height: 100vh;
+  background-color: #ffd569;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-container {
+  height: 80%;
+  width: 80%;
+  background-color: #ffffff;
+  border-radius: 15px;
+  font-family: roboto;
+  color: #000000;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 0px 20px 0px;
+}
+
+.main-heading {
+  color: #000000;
+  text-align: center;
+}
+
+.fruits-container {
+  display: flex;
+  justify-content: center;
+  /* border: solid red 2px; */
+}
+
+.fruit-container {
+  /* border: solid green 2px; */
+  align-self: center;
+  width: 60%;
+}
+
+.image {
+  width: 60%;
+}
+
+.button {
+  display: block;
+  margin: auto;
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  outline: none;
+  border: 0px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.count-color {
+  color: #ffd569;
+}
+
+@media screen and (orientation: portrait) and (max-width: 577px) {
+  .sub-container {
+    height: auto;
+  }
+  .fruits-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-heading {
+    font-size: 1.2rem;
+  }
+  .button {
+    font-size: 0.4rem;
+    padding: 5px;
+    outline: 0px;
+  }
+}
